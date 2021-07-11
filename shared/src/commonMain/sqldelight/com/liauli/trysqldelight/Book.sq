@@ -1,0 +1,21 @@
+CREATE TABLE book (
+    id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    price INTEGER NOT NULL
+);
+
+getAll:
+SELECT *
+FROM book;
+
+addBook:
+INSERT INTO book
+VALUES ?;
+
+getById:
+SELECT *
+FROM book WHERE id = ?;
+
+removeAll:
+DELETE FROM book;
