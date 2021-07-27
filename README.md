@@ -1,2 +1,2 @@
 # sqldelight-test
-Sample code for SQLDelight queries test in commonMain
+Sample code for SQLDelight queries test in commonTest
